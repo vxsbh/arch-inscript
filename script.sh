@@ -1,6 +1,6 @@
 echo "Lancement du Script..."
-sudo pacman -Syu
-sudo pacman -S vim networkmanager curl fish
+pacman -Syu
+pacman -S vim networkmanager curl fish
 systemctl enable NetworkManager
 clear
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
